@@ -1,6 +1,9 @@
 # -*- mode: shell-script -*-
 # User-defined aliases
 
+# sudo hack to make sure sudo plays nicely with other aliases
+alias sudo="sudo "
+
 # system extensions
 alias dnf="dnf --assumeyes"
 
