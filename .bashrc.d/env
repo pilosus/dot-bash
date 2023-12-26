@@ -1,0 +1,8 @@
+# -*- mode: shell-script -*-
+# User-defined environment variables
+
+export BROWSER=/usr/bin/firefox
+export EDITOR=emacs
+
+# Unset SYSTEMD_PAGER to turn off  systemctl's auto-paging feature:
+export SYSTEMD_PAGER=

@@ -1,0 +1,4 @@
+# -*- mode: shell-script -*-
+# Autocompletion settings
+
+complete -C /usr/bin/terraform terraform

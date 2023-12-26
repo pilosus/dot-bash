@@ -1,0 +1,19 @@
+# -*- mode: shell-script -*-
+# User-defined aliases
+
+# system extensions
+alias dnf="dnf --assumeyes"
+
+# coreutils extensions
+alias l="ls -lth"
+alias ll="ls -ltha"
+
+# git
+alias g="git"
+alias revc="git rev-list HEAD --count"
+
+# docker
+alias docker-compose="docker compose"
+
+# misc
+alias weather="curl wttr.in/vienna"
