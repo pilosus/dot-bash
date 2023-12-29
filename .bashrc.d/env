@@ -6,3 +6,6 @@ export EDITOR=emacs
 
 # Unset SYSTEMD_PAGER to turn off  systemctl's auto-paging feature:
 export SYSTEMD_PAGER=
+
+# https://github.com/wezm/git-grab
+export GRAB_HOME=~/git
