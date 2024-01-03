@@ -18,5 +18,3 @@ alias revc="git rev-list HEAD --count"
 # docker
 alias docker-compose="docker compose"
 
-# misc
-alias weather="curl wttr.in/vienna"
