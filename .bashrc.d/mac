@@ -13,3 +13,7 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 # Java/Temurin 21
 # https://clojure.org/guides/install_clojure#java
 export PATH="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin:$PATH"
+
+# Override emacs alias for Emacs for MacOS App in console
+# https://emacsformacosx.com/
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
