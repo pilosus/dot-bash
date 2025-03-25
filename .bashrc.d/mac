@@ -1,0 +1,15 @@
+# -*- mode: shell-script -*-
+# MacOS overrides
+
+# Homebrew eval
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# https://support.apple.com/en-us/102360
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# brew install bash-completion@2
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
+
+# Java/Temurin 21
+# https://clojure.org/guides/install_clojure#java
+export PATH="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin:$PATH"
